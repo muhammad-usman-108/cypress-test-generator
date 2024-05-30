@@ -1,0 +1,16 @@
+{
+  "name": "cypress-test-generator",
+  "version": "1.0.0",
+  "description": "A npm package that Automate Cypress test generation from HTML snippets. Simply provide an HTML snippet and test name, and instantly generate Cypress test code for UI testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "prettier": "^3.2.5"
+  }
+}
