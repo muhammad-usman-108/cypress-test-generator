@@ -1,10 +1,15 @@
 {
   "name": "cypress-test-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A npm package that Automate Cypress test generation from HTML snippets. Simply provide an HTML snippet and test name, and instantly generate Cypress test code for UI testing.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "node example.js"
+    "build": "tsc",
+    "test": "npm run build && node dist/example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammad-usman-108/cypress-test-generator.git"
   },
   "keywords": [
     "Cypress",
@@ -20,6 +25,10 @@
   ],
   "author": "Muhammad Usman",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muhammad-usman-108/cypress-test-generator/issues"
+  },
+  "homepage": "https://github.com/muhammad-usman-108/cypress-test-generator#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
     "fs": "^0.0.1-security",

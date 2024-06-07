@@ -49,7 +49,7 @@ const htmlCode = `
 
 const testName = 'Sample Test';
 const description = 'should interact with the button'
-const testCode = generateCypressTest(htmlCode, testName);
+const testCode = generateCypressTest(htmlCode, testName, description);
 formatCode(testCode).then(result => writeTestFile(result, 'sampleTest.spec.js'));
 
 // it will create a 'sampleTest.spec.js' file which contain the Cypress e2e test snippet
