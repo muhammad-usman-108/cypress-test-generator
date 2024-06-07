@@ -4,10 +4,10 @@ The cypress-test-generator is an NPM package that automatically generates Cypres
 
 ## Features
 
-**Automatic Test Generation**: Simply provide an HTML snippet, and the package will generate the corresponding Cypress test code.
-**Ease of Use**: Simplifies the creation of Cypress tests, even for developers who are new to writing end-to-end tests.
-**Customization**: The generated tests can be easily customized to fit specific testing needs.
-**Integration**: Seamlessly integrates into your existing Cypress testing workflow.
+1. **Automatic Test Generation**: Simply provide an HTML snippet, and the package will generate the corresponding Cypress test code.
+2. **Ease of Use**: Simplifies the creation of Cypress tests, even for developers who are new to writing end-to-end tests.
+3. **Customization**: The generated tests can be easily customized to fit specific testing needs.
+4. **Integration**: Seamlessly integrates into your existing Cypress testing workflow.
 
 
 Simply provide an HTML snippet and test name, description and instantly generate Cypress e2e test code for UI testing.
