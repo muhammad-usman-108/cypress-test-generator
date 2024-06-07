@@ -58,9 +58,9 @@ formatCode(testCode).then(result => writeTestFile(result, 'sampleTest.spec.js'))
 
 | Function | Description |
 |---------|---------|
-| generateCypressTest | Function to generate Cypress test code. | 
-| formatCode | Function to format generated test code. |
-| writeTestFile | Function to write test code to a file. |
+| generateCypressTest | Generates Cypress test code from the provided HTML snippet. | 
+| formatCode | Formats the generated Cypress test code using Prettier. |
+| writeTestFile | Writes the generated and formatted test code to a specified file. |
 
 
 ## Contributing
