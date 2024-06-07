@@ -22,15 +22,14 @@ You can install this package using npm or yarn.
 
 ### yarn
 
-```yarn add cypress-test-generator``
+```yarn add cypress-test-generator```
 
 ## Usage
 
 // Usage example
 
 ```typescript
-
-import { generateCypressTest, formatCode, writeTestFile } from "cypress-test-generator";
+const { generateCypressTest, formatCode, writeTestFile } = require('cypress-test-generator');
 
 // Example HTML code block
 const htmlCode = `
@@ -55,14 +54,13 @@ formatCode(testCode).then(result => writeTestFile(result, 'sampleTest.spec.js'))
 // it will create a 'sampleTest.spec.js' file which contain the Cypress e2e test snippet
 ```
 
-### Functions
+## Functions
 
 | Function | Description |
 |---------|---------|
 | generateCypressTest | Function to generate Cypress test code. | 
 | formatCode | Function to format generated test code. |
 | writeTestFile | Function to write test code to a file. |
-
 
 
 ## Contributing
