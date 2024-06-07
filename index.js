@@ -8,7 +8,7 @@ function escapeSingleQuotes(text) {
 }
 
 // Function to generate Cypress test code
-function generateCypressTest(htmlCode, testName) {
+function generateCypressTest(htmlCode, testName, description) {
     const $ = cheerio.load(htmlCode);
     let commands = [];
 
@@ -57,7 +57,7 @@ function generateCypressTest(htmlCode, testName) {
     // Generate complete Cypress test code
     const testCode = `
     describe('${testName}', () => {
-        it('should contain expected elements and attributes', () => {
+        it('${description}', () => {
             ${commands.join('\n            ')}
         });
     });
